@@ -15,14 +15,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 19
-          
-      - run: cd client
 
       - name: Npm install
-        run: npm install
+        run: cd client && npm install
 
       - name: Run test
-        run: npm run test
+        run: cd client && npm run test
 
       - name: Run eslint
-        run: npm run lint
+        run: cd client && npm run lint
