@@ -1,7 +1,7 @@
 import renderer from "react-test-renderer";
-import Header from "../../components/header";
+import Header from "../header";
 
-describe("Header", () => {
+describe("Header test", () => {
   it("should match snapshot", () => {
     const tree = renderer.create(
       <Header  />
