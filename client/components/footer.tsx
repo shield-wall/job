@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="Container-2">
+      <div className="container-full">
         <span className="text-md text-gray-500">© 2023
           <a href="/" className="hover:underline">
             Job™

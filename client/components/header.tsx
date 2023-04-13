@@ -2,10 +2,10 @@ const Header = () => {
   return (
 
     <nav className="navbar">
-      <div className="Container-1">
+      <div className="container-flex">
         <a href="/" className="flex items-center">
           <img src="/" className="h-6 mr-3 sm:h-9" alt="job" />
-          <span className="span">
+          <span className="span-blue">
             Job
           </span>
         </a>
