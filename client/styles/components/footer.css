@@ -1,15 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind variants;
-
-.footer{
+.footer {
     @apply bg-neutral-50 border-t border-neutral-200
 }
 
-.footer-container{
+.Container-2 {
     @apply w-full mx-auto md:p-6 p-4 md:flex md:items-center md:justify-between max-w-screen-xl;
 }
-.footer-i{
+
+.footer-item {
     @apply text-gray-500 hover:text-blue-700;
 }
