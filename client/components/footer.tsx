@@ -7,7 +7,7 @@ const Footer = () => {
             Job™
           </a>. All Rights Reserved.
         </span>
-        <div className="flex mt-4 space-x-8 sm:justify-center sm:mt-0">
+        <div className="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
           <a href="/" className="footer-item">
             <i>Facebook</i>
           </a>

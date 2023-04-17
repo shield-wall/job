@@ -20,7 +20,7 @@ exports[`footer test is redendring properly footer component  1`] = `
       . All Rights Reserved.
     </span>
     <div
-      className="flex mt-4 space-x-8 sm:justify-center sm:mt-0"
+      className="flex mt-4 space-x-4 sm:justify-center sm:mt-0"
     >
       <a
         className="footer-item"
