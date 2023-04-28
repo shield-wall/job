@@ -1,7 +1,7 @@
 const Header = () => {
   return (
 
-    <nav className="navbar">
+    <nav className="navbar" data-testid="header">
       <div className="container-flex">
         <a href="/" className="flex items-center">
           <img src="/" className="h-6 mr-3 sm:h-9" alt="job" />
@@ -36,7 +36,7 @@ const Header = () => {
       </div>
     </nav>
 
-  )
-}
+  );
+};
 
 export default Header;

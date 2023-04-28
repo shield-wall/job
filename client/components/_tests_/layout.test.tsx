@@ -26,4 +26,4 @@ describe("layout component", () => {
         renderer.create(<Layout>{<MockFooter />}</Layout>);
         expect(MockFooter).toHaveBeenCalled();
     });
-})
+});

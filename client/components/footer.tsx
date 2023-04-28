@@ -1,6 +1,7 @@
+import React from "react";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" data-testid="footer">
       <div className="container-full">
         <span className="text-md text-gray-500">© 2023
           <a href="/" className="hover:underline">
@@ -23,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

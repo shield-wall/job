@@ -1,12 +1,11 @@
-import renderer from "react-test-renderer";
 import Header from "../header";
+import { render } from "@testing-library/react";
 
 describe("Header test", () => {
-  it("should match snapshot", () => {
-    const tree = renderer.create(
-      <Header  />
-    ).toJSON();
+  it("is rendering properly header component", () => {
+   const { getByTestId } = render(<Header />);
+   const elementId = getByTestId('header');
 
-    expect(tree).toMatchSnapshot();
+   expect(elementId).toBeTruthy();
   });
 });

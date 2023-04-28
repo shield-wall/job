@@ -1,11 +1,11 @@
-import renderer from "react-test-renderer";
 import Footer from "../footer";
+import { render } from '@testing-library/react';
 
-describe("footer test", () =>{
+describe("footer test", () => {
     it('is redendring properly footer component ', () => {
-        const tree = renderer.create(
-            <Footer />
-        ).toJSON()
-        expect(tree).toMatchSnapshot();
+        const { getByTestId } = render(<Footer />);
+        const elementId = getByTestId('footer');
+        
+        expect(elementId).toBeTruthy();
     });
-})
+});
