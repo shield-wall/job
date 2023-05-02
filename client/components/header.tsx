@@ -1,35 +1,36 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
-
-    <nav className="navbar" data-testid="header">
+    <nav id="header" className="navbar">
       <div className="container-flex">
-        <a href="/" className="flex items-center">
+        <Link href="/" id="link" className="flex items-center">
           <img src="/" className="h-6 mr-3 sm:h-9" alt="job" />
           <span className="span-blue">
             Job
           </span>
-        </a>
+        </Link>
         <div className="w-full md:block md:w-auto" id="navbar-default">
           <ul className="navbar-list">
             <li>
-              <a href="/" className="navbar-main-item">
+              <Link href="/" id="link" className="navbar-main-item">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="navbar-item">
+              <Link href="/" id="link" className="navbar-item">
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="navbar-item">
+              <Link href="/" id="link" className="navbar-item">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="navbar-item">
+              <Link href="/" id="link" className="navbar-item">
                 Post a job
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
