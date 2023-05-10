@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next",
     "test": "jest --coverage",
-    "lint": "npx eslint components/**",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
     "lint:fix": "npm run lint -- --fix",
     "build": "next build",
     "start": "next start",

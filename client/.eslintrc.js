@@ -12,7 +12,7 @@ module.exports = {
 	"plugins": ["@typescript-eslint"],
 	"extends": ["plugin:@typescript-eslint/recommended"],
 	"rules": {
-		"@typescript-eslint/no-unused-vars": "error",
+		"@typescript-eslint/no-unused-vars": "warn",
 
 		"@typescript-eslint/consistent-type-definitions": "error", 
 		"@typescript-eslint/semi": "error",

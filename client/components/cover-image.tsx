@@ -1,8 +1,8 @@
-import cn from 'classnames'
-import Link from 'next/link'
-import Image from 'next/image'
+import cn from 'classnames';
+import Link from 'next/link';
+import Image from 'next/image';
 
-type Props = {
+interface Props {
   title: string
   src: string
   slug?: string
@@ -19,7 +19,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       width={1300}
       height={630}
     />
-  )
+  );
   return (
     <div className="sm:mx-0">
       {slug ? (
@@ -30,7 +30,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
         image
       )}
     </div>
-  )
-}
+  );
+};
 
-export default CoverImage
+export default CoverImage;
