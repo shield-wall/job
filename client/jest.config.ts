@@ -1,9 +1,10 @@
-import type {Config} from '@jest/types';
+import type {Config} from 'jest';
 
-const config: Config.InitialOptions = {
+const config: Config = {
+  testEnvironment: 'jest-environment-jsdom',
   verbose: true,
   transform: {
-  "^.+\\.tsx?$": "ts-jest",
+  "^.+\\.tsx?$": "babel-jest",
   },
 };
 export default config;
